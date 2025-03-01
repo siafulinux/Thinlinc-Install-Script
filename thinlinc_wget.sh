@@ -19,8 +19,9 @@ sudo ./install-server
 
 # Start ThinLinc server
 echo "Starting ThinLinc server..."
-sudo systemctl start tl-web
-sudo systemctl enable tl-web
+sudo systemctl start tlwebaccess
+sudo systemctl enable tlwebaccess
+sudo systemctl restart tlwebaccess
 
 # Provide installation details
 echo ""
