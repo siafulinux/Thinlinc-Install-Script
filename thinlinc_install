@@ -28,5 +28,9 @@ sudo systemctl start tl-web
 sudo systemctl enable tl-web
 
 # Provide installation details
+echo ""
+echo ""
+echo ""
+echo ""
 echo "ThinLinc server installation completed!"
 echo "You can access the ThinLinc web admin interface at: http://localhost:300"
