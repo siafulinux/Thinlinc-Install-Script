@@ -23,6 +23,10 @@ sudo systemctl start tlwebaccess
 sudo systemctl enable tlwebaccess
 sudo systemctl restart tlwebaccess
 
+# Delete downloaded files...
+rm -rf tl-4.18.0-server
+rm tl-4.18.0-server.zip
+
 # Provide installation details
 echo ""
 echo ""
