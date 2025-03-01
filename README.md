@@ -1,4 +1,4 @@
-#ThinLinc Install Script
+# ThinLinc Install Script
 
 Personal script to install thinlinc server...
 
